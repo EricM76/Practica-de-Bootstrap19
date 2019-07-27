@@ -1,0 +1,65 @@
+header{
+  background-color: #2C3E50;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+}
+h5{
+  font-family: 'Montserrat',sans-serif;
+  font-weight: bold;
+}
+.navbar-nav{
+  font-weight: bold;
+}
+.portada{
+  background-color: #18BC9C;
+}
+.barra{
+  width: 160px;
+}
+.portada h1{
+  font-weight: bold;
+  font-size: 3rem;
+}
+.imagenes{
+  font-family: 'Montserrat', sans-serif;
+}
+h2{
+  font-weight: bold;
+  font-family: Montserrat;
+}
+.barra1{
+  width: 160px;
+  filter: invert(100%);
+}
+.about{
+background-color: #18BC9C;
+}
+p{
+  font-family: 'Lato', sans-serif;
+  /* font-size: 1.25em; */
+}
+.contacto{
+  font-family: 'Lato', sans-serif;
+}
+.contacto .send{
+  background-color: #18BC9C;
+  color: white;
+}
+.redes{
+  background-color: #2C3E50;
+}
+strong{
+  color: #18BC9C;
+
+}
+@media (min-width:992px) {
+  .fotos{
+    width: 90%;
+  }
+  .contacto{
+    width: 70%;
+  }
+  .parrafos{
+    width: 70%;
+  }
+}

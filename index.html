@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/master.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <title>Curso de bootstrap</title>
+  </head>
+  <body>
+    <header class="container">
+
+<!-- menu de navegacion -->
+
+      <div class="container pt-2 pb-2">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="#">FREELANCE PORTFOLIO</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">PORTFOLIO <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- portada y encabezado -->
+
+    <section class="container portada pt-5 pb-5">
+      <div class="container text-white text-center">
+        <img class="profile pt-2 pb-3"src="images/profile.png" alt="">
+        <h1 mt-5 mb-5>FREELANCE PORTFOLIO</h1>
+        <img class="barra mt-2 mb-3"src="images/barra.png" alt="barra">
+        <h5>Web Developer - Graphic Artist - User Experience Designer</h5>
+      </div>
+    </section>
+
+<!-- imagenes principales (portfolio) -->
+
+    <section class="imagenes text-center pt-5 pb-3">
+      <h2>PORTFOLIO</h2>
+      <img class="barra1 mt-2 mb-0"src="images/barra.png" alt="barra">
+    </section>
+      <section class="fotos container">
+        <div class="row">
+          <img class="col-xs-12 col-md-6 col-lg-4 mb-4"src="images/cabin.png" alt="">
+          <img class="col-xs-12 col-md-6 col-lg-4 mb-4"src="images/cake.png" alt="">
+          <img class="col-xs-12 col-md-6 col-lg-4 mb-4"src="images/circus.png" alt="">
+          <img class="col-xs-12 col-md-6 col-lg-4 mb-4"src="images/game.png" alt="">
+          <img class="col-xs-12 col-md-6 col-lg-4 mb-4"src="images/safe.png" alt="">
+          <img class="col-xs-12 col-md-6 col-lg-4 mb-4"src="images/submarine.png" alt="">
+        </div>
+      </section>
+
+<!-- acerca de (about) -->
+
+    <section class="about container text-light ">
+      <div class="text-center">
+        <h2 class="pt-5">ABOUT</h2>
+        <img class="barra mb-4"src="images/barra.png" alt="barra">
+      </div>
+      <div class="text-left d-flex justify-content-center">
+        <div class="row parrafos">
+          <div class="col-xs-12 col-md-12 col-lg-6">
+            <p>Freelancer is a free landing page theme created for free use. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheet for easy customization.</p>
+          </div>
+          <div class="col-xs-12 col-md-12 col-lg-6">
+            <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+          </div>
+        </div>
+      </div>
+      <div class="boton container text-center pt-3 pb-5">
+        <button type="button" class="btn btn-outline-light">Download Now!</button>
+      </div>
+    </section>
+
+<!-- formulario (contact me) -->
+
+    <section class="contacto container mt-5 text-center">
+      <h2>CONTACT ME</h2>
+      <img class="barra1"src="images/barra.png" alt="barra">
+      <div class="text-left">
+        <form>
+          <div class="form-group">
+            <label for="formGroupExampleInput">Name</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
+          </div>
+          <div class="form-group">
+            <label for="formGroupExampleInput2">Email Address</label>
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="">
+          </div>
+          <div class="form-group">
+            <label for="formGroupExampleInput2">Phone Number</label>
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="">
+          </div>
+          <div class="form-group">
+            <label for="formGroupExampleInput2">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+          </div>
+          <input class="btn send" type="submit" value="Send">
+        </form>
+      </div>
+    </section>
+
+    <!-- redes sociales -->
+
+    <section class="redes container text-light mt-5">
+      <div class="row text-center p-4">
+        <div class="col-xs-12 col-md-4 col-lg-4">
+          <h5 class="mb-3 mt-5">LOCATION</h5>
+          <p>2215 John Daniel Drive Clark, MO 65243</p>
+        </div>
+        <div class="col-xs-12 col-md-4 col-lg-4">
+          <h5 class="mb-3 mt-5">AROUND THE WEB</h5>
+          <ion-icon name="logo-facebook"size="large"></ion-icon>
+          <ion-icon name="logo-googleplus"size="large"></ion-icon>
+          <ion-icon name="logo-twitter"size="large"></ion-icon>
+          <ion-icon name="logo-linkedin"size="large"></ion-icon>
+          <ion-icon name="logo-dribbble"size="large"></ion-icon>
+        </div>
+        <div class="col-xs-12 col-md-4 col-lg-4">
+          <h5 class="mb-3 mt-5">ABOUT FREELANCER</h5>
+          <p>Freelance is free and open source landing page theme created to <strong>your free personal use</strong></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- pie de pagina -->
+
+    <footer class="container bg-dark text-light text-center pb-3 pt-3">
+      <p>Copyright WebMaster Eric 2019</p>
+    </footer>
+    <script src="js/jquery.js"type="text/javascript"></script>
+    <script src="js/bootstrap.js"type="text/javascript"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  </body>
+</html>
